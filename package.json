@@ -1,0 +1,15 @@
+{
+  "name": "cypress-swagger.petstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "cypress open --browser chrome",
+    "test:": "npx cypress run --record --key 8561448f-a0f7-4a0e-a2bb-e5a40a40d9ac"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  }
+}
